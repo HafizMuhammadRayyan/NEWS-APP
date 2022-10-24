@@ -1,0 +1,35 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.post {
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.post>img {
+    width: 100%;
+    height: auto;
+
+}
+
+.post>.textDiv {
+    padding: 10px 20px;
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+}
+
+.post>.textDiv>.postTitle {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
